@@ -1,0 +1,12 @@
+Userblog::Application.routes.draw do
+
+  patch "post/update" => "post#update", :as => "post/update"
+  devise_for :users
+  get "/about", to: "pages#about"
+	resources :post do 
+		resources :comments
+	end
+	root "post#index"  
+	 
+
+end
