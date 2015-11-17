@@ -14,7 +14,7 @@ development:
   database: userblog_development
   pool: 5
   username: useradmin
-  password: bslaik11
+  password: xxxxxx
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
